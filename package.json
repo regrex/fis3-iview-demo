@@ -1,0 +1,37 @@
+{
+  "name": "fis3-vue-mis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fis-conf.js",
+  "scripts": {
+    "dev": "fis3 release dev -wL",
+    "test": "fis3 release test -wL",
+    "build": "fis3 release prod"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "iview": "^2.0.0-rc.18",
+    "vue": "^2.4.1",
+    "vue-router": "^2.7.0"
+  },
+  "devDependencies": {
+    "babel-preset-es2015-loose": "^7.0.0",
+    "babel-preset-es2015-nostrict": "^6.6.2",
+    "babel-preset-es2015-without-strict": "0.0.4",
+    "babel-preset-react": "^6.5.0",
+    "fis-parser-babel-6.x": "^1.0.0",
+    "fis-parser-jade": "0.0.12",
+    "fis-parser-node-sass": "^1.0.1",
+    "fis3-hook-commonjs": "^0.1.22",
+    "fis3-hook-node_modules": "^2.2.3",
+    "fis3-packager-deps-pack": "^0.1.2",
+    "fis3-parser-less-2.x": "^0.1.4",
+    "fis3-parser-translate-es3ify": "0.0.2",
+    "fis3-parser-vue-component": "^5.4.0",
+    "fis3-postpackager-loader": "^2.1.4",
+    "fis3-postprocessor-autoprefixer": "^1.0.0",
+    "fis3-preprocessor-js-require-css": "^0.1.1",
+    "fis3-preprocessor-js-require-file": "^0.1.3"
+  }
+}

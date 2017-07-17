@@ -1,0 +1,1 @@
+BUILD_SUBMITTER -e FIS -x -m baidu/feed-fe/fis-vue-mis -c "cd baidu/feed-fe/fis-vue-mis && sh build.sh" -u ./
